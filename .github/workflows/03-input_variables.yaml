@@ -5,10 +5,12 @@ on:
     inputs:
       num1:
         description: "number1"
+        type: number
         default: "0"
         required: true
       num2:
         description: "number2"
+        type: number
         default: "0"
         required: true
 jobs:
