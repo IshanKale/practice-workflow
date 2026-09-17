@@ -18,4 +18,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "practice on input var"
-        run: echo ${{inputs.num1}}+${{inputs.num2}}
+        run: echo $((${{inputs.num1}}+${{inputs.num2}}))
