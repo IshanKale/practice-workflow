@@ -7,4 +7,7 @@ jobs:
         steps:
          -  name: "finding system info"
             run: df -H
-
+         -  name: "cpu"
+            run: lscpu
+         -  name: "number of cores"
+            run: nproc
