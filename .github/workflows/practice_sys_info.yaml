@@ -1,0 +1,10 @@
+name: sysinfo
+on: 
+    workflow_dispatch:
+jobs:
+    info:
+        runs-on: ubuntu-latest
+        steps:
+         -  name: "finding system info"
+            run: df -H
+
